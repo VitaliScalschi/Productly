@@ -1,0 +1,113 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    &__logo {
+        display: flex;
+        &-logotip {
+            width: 30px;
+            height: 30px;
+        }
+        &-title {
+            margin-left: 12px;
+        }
+    }
+    &__items {
+        display: flex;
+        min-width: 350px;
+        list-style-type: none;
+        margin-left: 450px;  
+    }
+    &__link {
+        text-decoration: none;
+        margin-right: 35px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #2F281E;
+        &:hover {
+            text-decoration:underline;
+        }
+    }
+    &__button {
+        display: flex;
+        margin-right: 25px;
+        &-sign-in {
+            margin-right: 25px;
+            &:hover{
+                background-color:$main-color;
+                color:#fff;
+                transition: all 0.5s;
+            }
+        }
+        &-sign-up {
+            &:hover {
+                background-color:$main-color;
+                color:#fff;
+                transition: all 0.5s;
+            }
+        }
+    }
+}
+.button {
+    background-color: #fff;
+    border: 1px solid #bcd0e5;
+    border-radius: 5px;
+    width: 102px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #173A56;
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    max-width: 520px;
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 54px;
+        color: #2F281E;
+    }
+    &__text {
+        width: 460px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #544837;
+    }
+    .abstract {
+        display: flex;
+        align-items:center;
+        &__button {
+            width: 175px;
+            height: 53px;
+            background-color:$main-color;
+            color:#fff;
+            border: none;
+            border-radius: 5px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            margin-right: 30px;
+        }
+        &__text {
+            a{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 1px;
+                color:$main-color;
+            }
+        }
+    }
+}
