@@ -16,7 +16,7 @@
         display: flex;
         min-width: 350px;
         list-style-type: none;
-        margin-left: 450px;  
+        margin-left: 350px;  
     }
     &__link {
         text-decoration: none;
@@ -26,8 +26,12 @@
         font-size: 14px;
         line-height: 28px;
         color: #2F281E;
+        border-bottom: 4px solid transparent;
+        transition: all 0.5s;
         &:hover {
-            text-decoration:underline;
+            border-bottom: 4px solid $main-color;
+            
+            
         }
     }
     &__button {
@@ -67,47 +71,50 @@
 .top {
     display: flex;
     max-width: 520px;
+    padding-top: 45px;
     &__title {
         font-style: normal;
         font-weight: bold;
         font-size: 44px;
         line-height: 54px;
         color: #2F281E;
+        
     }
     &__text {
+        padding-top: 30px;
         width: 460px;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 28px;
         color: #544837;
+
     }
     .abstract {
         display: flex;
         align-items:center;
+        margin-top: 45px;
         &__button {
-            width: 175px;
-            height: 53px;
-            background-color:$main-color;
-            color:#fff;
-            border: none;
-            border-radius: 5px;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 24px;
             margin-right: 30px;
         }
-        &__text {
-            a{
-                font-style: normal;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 24px;
-                text-decoration-line: underline;
-                text-decoration-thickness: 1px;
-                color:$main-color;
-            }
+        .text__link {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            text-decoration-line: underline;
+            text-decoration-thickness: 1px;
+            color:$main-color;
+            &::after {
+                background-image: url(../icons/Bitmap.svg)
+            } 
         }
     }
+    &__image {
+       max-width: 600px; 
+        
+    }
+}
+.title {
+    margin-top: 120px;
 }
