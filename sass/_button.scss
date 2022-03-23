@@ -1,0 +1,53 @@
+.button__default {
+    width: 175px;
+    height: 53px;
+    background-color:$main-color;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    a {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color:#fff;
+        text-decoration: none; 
+    }
+    &:hover {
+        transition: all 0.4s;
+        background-color:#fff;
+        border: 2px solid $main-color;
+        a {
+            color:$main-color;
+        }
+    }
+    // &:active {
+    //     background-color:$main-color;
+    //     a {
+    //         color:#fff;
+    //     }
+    // } 
+}
+.button_send {
+    width: 175px;
+    height: 53px;
+    background-color:$main-color;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color:#fff;
+    text-decoration: none; 
+}
+.footer__button {
+    width: 135px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+

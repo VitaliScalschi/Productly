@@ -15,7 +15,7 @@
         "../sass/_modal.scss",
         "../sass/_pageup.scss",
         "../sass/_marketing.scss",
-        "../sass/__footer.scss"
+        "../sass/_footer.scss"
     ],
     "names": [],
     "file": "style.min.css"

@@ -1,0 +1,107 @@
+.feature {
+    // position: relative;
+    &__title {
+        margin-top: 110px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        color: #2F281E;
+    }
+    &__items {
+        display: flex;
+
+        
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin-top: 55px;
+        width: 240px;
+        margin-right: 45px;
+        &:last-child{
+            margin-right: 0;
+        }
+        &-icons {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            width: 50px;
+            height: 50px;
+            border-radius: 19px;
+            cursor: pointer;
+            &-mouse {
+                background:#7752BE;
+            }
+            &-line {
+                background: #FAB005;
+            }
+            &-heart {
+                background: #F03E3D;
+            }
+            &-time {
+               background:#4DADF7;
+            }
+        }
+        &-title {
+            margin-top: 30px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: #2F281E;
+        }
+        &-text {
+            margin-top: 15px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #544837;
+            text-align: center;
+        }
+    }
+    &__button {
+        display: block;
+        margin: 60px auto;
+    }
+}
+.feature__background {
+    // background: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+    // margin: 0 auto;
+    // position: absolute;
+    // z-index: -1;
+    // transform: rotate(180deg);
+    // background-image: url(../img/Bg.png);
+    // background-position: center;
+}
+
+///////////Animation/////////////
+.icon-line:hover {
+    animation-name:line;
+    animation-duration: 1.5s;
+}
+
+.icon-heart:hover {
+    animation-name: heart;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite; 
+    animation-timing-function: ease;
+    
+}
+.icon-mouse:hover{
+    animation-name: heart;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite; 
+    animation-timing-function: ease;
+}
+.icon-time:hover {
+    animation-name: time;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;  
+}
+
+
+

@@ -1,0 +1,55 @@
+.marketing {
+    min-height: 560px;
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 51px;
+        color: #2F281E;
+    }
+    &__subtitle {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #544837;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    &__item {
+        &-img {
+            width: 350px;
+            height: 185px;
+        }
+        &-autor {
+            margin-top: 25px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #544837;
+            span {
+                font-weight: 700;
+            }
+        }
+        &-title {
+            margin-top: 15px;
+            width: 290px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 34px;
+            color: #2F281E;
+        }
+    }
+    hr {
+        margin-top: 120px;
+        width: 1123px;
+        height: 1px;
+        background: rgba(188, 208, 229, 0.496913);
+    }
+}
