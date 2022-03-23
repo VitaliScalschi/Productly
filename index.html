@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/animate.css"> -->
+    <link rel="stylesheet" href="./css/animate.min.css">
     <link rel="stylesheet" href="./css/style.min.css">
     <title>Productly</title>
 </head>
@@ -15,7 +17,7 @@
             <div class="navigation">
                 <div class="navigation__logo">
                     <img class="navigation__logo-logotip" src="./icons/Bitmap.svg" alt="">
-                    <h2 class="navigation__logo-title">Productly</h2>
+                    <h2 class="navigation__logo-title animate__animated animate__jackInTheBox wow" data-wow-duration="1s" data-wow-delay="1s">Productly</h2>
                 </div>
                 <ul class="navigation__items">
                     <li><a href="#" class="navigation__link">Product</a></li>
@@ -116,7 +118,7 @@
                         cost you more money.
                     </div>
                 </div>
-                <div class="effortless__images">
+                <div class="effortless__images animate__animated animate__backInRight wow ">
                     <img src="./img/Image_1.jpg" alt="effortless">
                 </div>
             </div>
@@ -133,7 +135,7 @@
                         <li class="list">We track the markets daily and know where the savings are.</li>
                     </ul>
                 </div>
-                <div class="effortless__images">
+                <div class="effortless__images animate__animated animate__backInLeft wow">
                     <img src="./img/Image_2.jpg" alt="effortless">
                 </div>
             </div>
@@ -160,7 +162,7 @@
                         cost you more money.
                     </div>
                 </div>
-                <div class="effortless__images">
+                <div class="effortless__images animate__animated animate__backInRight wow">
                     <img src="./img/Image_3.jpg" alt="effortless">
                 </div>
             </div>
@@ -177,32 +179,92 @@
                     </div>
                     <button class="button_send button-info">Contact our expert</button>
                 </div>
-                <div class="avatar_1">
+                <div class="avatar_1 avatar animate__animated animate__backInLeft wow">
                     <div class="text">I can take care of your pitch</div>
-                    <img src="./img/Avator_1.jpg" alt="">
+                    <img src="./icons/Avator.svg" alt="">
                 </div>
-                <div class="avatar_2">
-                    <div class="text">I can design you website</div>
-                    <img src="./img/Avator_2.jpg" alt="">
+                <div class="avatar_2 avatar animate__animated animate__backInRight wow">
+                    <div class="text position-text">I can design you website</div>
+                    <img src="./icons/Avator_1.svg" alt="">
                 </div>
-                <div class="avatar_3">
+                <div class="avatar_3 avatar animate__animated animate__backInLeft wow">
                     <div class="text">I can help marketing strategy</div>
-                    <img src="./img/Avator_3.jpg" alt="">
+                    <img src="./icons/Avator_2.svg" alt="">
                 </div>
-                <div class="avatar_4">
-                    <div class="text">I can prototype your app</div>
-                    <img src="./img/Avator_4.jpg" alt="">
-                </div>
-                <div class="avatar_5">
-                    <div class="text">I will define the profile of your users</div>
-                    <img src="./img/Avator_5.jpg" alt="">
+                <div class="avatar_4 avatar animate__animated animate__backInLeft wow">
+                    <div class="text position-text">I will define the profile</div>
+                    <img src="./icons/Avator_3.svg" alt="">
+                </div> 
+                <div class="avatar_5 avatar animate__animated animate__backInRight wow">
+                    <div class="text position-text">I can prototype your app</div>
+                    <img src="./icons/Avator_4.svg" alt="">
                 </div>
             </div>
         </div>
     </section>
-
     
+    <section class="marketing">
+        <div class="container">
+            <h2 class="marketing__title">Marketing Strategies</h2>
+            <div class="marketing__subtitle">Join 40,000+ other marketers and get proven strategies on email marketing</div>
 
+            <div class="marketing__items">
+                <div class="marketing__item">
+                    <img src="./img/image_4.jpg" alt="" class="marketing__item-img">
+                    <div class="marketing__item-autor">By <span>Abdullah</span> |  03 March 2019</div>
+                    <div class="marketing__item-title">Increasing Prosperity With Positive Thinking</div>
+                </div>
+                <div class="marketing__item">
+                    <img src="./img/image_5.jpg" alt="" class="marketing__item-img">
+                    <div class="marketing__item-autor">By <span>Abdullah</span> | 03 March 2019</div>
+                    <div class="marketing__item-title">Motivation Is The First Step To Success</div>
+                </div>
+                <div class="marketing__item">
+                    <img src="./img/image_6.jpg" alt="" class="marketing__item-img">
+                    <div class="marketing__item-autor">By <span>Abdullah</span> | 03 March 2019</div>
+                    <div class="marketing__item-title">Success Steps For Your Personal Or Business Life</div>
+                </div>
+            </div>
+            <hr>
+
+
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <img src="./icons/Bitmap.svg" alt="" class="footer__logo-img">
+                <h2 class="footer__logo-title">Productly</h2>
+            </div>
+            <div class="footer__lists">
+                <div class="list footer__list-first">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="list footer__list-second">
+                    <ul>
+                        <li><a href="#">Disclaimer </a> </li>
+                        <li><a href="#">Financig</a> </li>
+                        <li><a href="#">Privacy Policy</a> </li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+               <div class="footer__form">
+                <form action="" class="footer__form-number">
+                    <input name="phone" required placeholder="Enter your phone">
+               </form>
+               <button class="footer__button button_send">Sign up Now</button>
+               </div>
+               
+            </div>
+           
+
+        </div>
+    </section>
 
 
 <div class="overlay">
@@ -227,9 +289,9 @@
 </body>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<!-- <script src="./js/slick.min.js"></script> -->
+<script src="./js/slick.min.js"></script>
 <script src="./js/jquery.validate.min.js"></script>
-<!-- <script src="./js/wow.min.js" ></script> -->
+<script src="./js/wow.min.js" ></script>
 <script src="./js/script.js"></script>
 
 
